@@ -1,0 +1,3 @@
+# macOS-related files to ignore
+.DS_Store
+.snakemake

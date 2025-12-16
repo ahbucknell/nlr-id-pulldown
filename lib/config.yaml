@@ -1,0 +1,16 @@
+## Configuration for the pipeline
+
+## Path to your scratch,
+scratch: "/Users/doz23per/oneDrive/"
+## Directory in scratch to store the results
+workdir: "research/effectome/datasets/nlr-id-pulldown-testing"
+
+## Path to your SLURM parameters
+profile_dir: "./profiles"
+
+## Your HPC allocation key
+wckey: "your_wckey" # Your HPC allocation key
+
+## The partition to use for the main snakemake job
+main_job_partition: "tsl_short"
+
