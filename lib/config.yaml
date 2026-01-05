@@ -1,16 +1,6 @@
-## Configuration for the pipeline
+# Re-used dir name that contains all the structures.
+input: "boltz2_structures"
 
-## Path to your scratch,
-scratch: "/Users/doz23per/oneDrive/"
-## Directory in scratch to store the results
-workdir: "research/effectome/datasets/nlr-id-pulldown-testing"
-
-## Path to your SLURM parameters
-profile_dir: "./profiles"
-
-## Your HPC allocation key
-wckey: "your_wckey" # Your HPC allocation key
-
-## The partition to use for the main snakemake job
-main_job_partition: "tsl_short"
-
+# Analysis will be run on all input dirs found in the target dir or one level down.
+# This is an absolute path - and it cannot be the same as the input dir name.
+target: "/Users/doz23per/Documents/boltz2_predictions"
